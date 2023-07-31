@@ -1,0 +1,128 @@
+
+
+
+  //     $.ajaxSetup({
+  //   headers: {
+  //     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  //   }
+  // });
+
+
+  // $(document).ready(function() {
+  //   $('#week').click(function() {
+
+  //     $.ajax({
+  //       url: '/get_week_data', // Use the Laravel route helper to generate the URL
+  //       type: 'GET',
+  //       data: {
+  //         data: 'buyer'
+  //       },
+  //       success: function(response) {
+  //         // Clear the existing table data
+  //         // Update the Laravel $buyer variable with the response data
+  //         // Clear the existing buyer data
+
+  //         // Iterate over the response data and generate table rows for buyers
+  //         for (var i = 0; i < response.length; i++) {
+  //           var buyer = response[i];
+  //           $("#company_name").text(buyer.company_name)
+  //         }
+  //       },
+  //       error: function(xhr, status, error) {
+  //         console.log(error);
+  //       }
+  //     });
+  //   });
+  // });
+
+
+
+
+
+  // $("#search").keyup(function() {
+  //   $.ajax({
+  //     url: '/buyer_search',
+  //     type: 'GET',
+  //     data: {
+  //       search: $("#search").val()
+  //     },
+  //     success: function(response) {
+
+
+  //       $("#table").html(response.buyer)
+
+  //       if ($("#search").val() != '') {
+
+  //         $("#table").html()
+
+  //       }
+
+
+
+
+  //     },
+  //     error: function(xhr, status, error) {
+  //       console.log(error);
+  //     }
+  //   });
+  // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <script>
+    document.getElementById('generate_pdf').addEventListener('click', function() {
+  // Get the HTML content of the specific div
+  const divContent = document.getElementById('pdf_table').outerHTML;
+
+  // Send the HTML content to the Laravel route using AJAX
+  fetch('/buyer_pdf', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+    },
+    body: JSON.stringify({ content: divContent })
+  })
+  .then(response => response.json())
+  .then(data => {
+    // If the response contains the PDF URL, open it in a new window
+    if (data.pdfUrl) {
+      window.open(data.pdfUrl, '_blank');
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+});
+
+</script> -->
