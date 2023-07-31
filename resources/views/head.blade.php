@@ -15600,7 +15600,7 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
                 <div class="account-wrap">
                     <div class="account-item account-item--style2 clearfix js-item-menu">
                         <div class="image">
-                            <img src="images/icon/avatar-01.jpeg" alt="John Doe">
+                            <img src="" alt="John Doe">
                         </div>
                         <div class="content">
                             <a class="js-acc-btn" href="#">{{session('user_id')['username']}}</a>
@@ -15609,7 +15609,7 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
                             <div class="info clearfix">
                                 <div class="image">
                                     <a href="#">
-                                        <img src="images/icon/avatar-01.jpeg" alt="John Doe">
+                                        <img src="" alt="John Doe">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -15958,7 +15958,7 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
         <div class="account-wrap">
             <div class="account-item account-item--style2 clearfix js-item-menu">
                 <div class="image">
-                    <img src="images/icon/avatar-01.jpeg" alt="John Doe">
+                    <img src="" alt="John Doe">
                 </div>
                 <div class="content">
                     <a class="js-acc-btn" href="#">{{session('user_id')['username']}}</a>
@@ -15967,7 +15967,7 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
                     <div class="info clearfix">
                         <div class="image">
                             <a href="#">
-                                <img src="images/icon/avatar-01.jpeg" alt="ADMIN">
+                                <img src="" alt="ADMIN">
                             </a>
                         </div>
                         <div class="content">
